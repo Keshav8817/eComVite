@@ -1,0 +1,7 @@
+.hContainer{
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: white;
+}
