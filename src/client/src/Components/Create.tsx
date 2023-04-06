@@ -33,7 +33,7 @@ const PostData =(e)=>{
    e.preventDefault();
   
 axios
-.post("http://localhost:9088/save" , data)
+.post("https://ecomg.azurewebsites.net/save" , data)
 .then(()=>{
     alert("Data Sent")
     navigate('/contact')

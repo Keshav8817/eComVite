@@ -7,7 +7,7 @@ function Read() {
   let navigate = useNavigate();
 
   function LoadData() {
-    axios.get("http://localhost:9088/users").then((response) => {
+    axios.get("https://ecomg.azurewebsites.net//users").then((response) => {
       setGetData(response.data);
     });
   }
